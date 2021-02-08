@@ -1,0 +1,22 @@
+class vec2 {
+  
+public:
+  float x, y;
+  vec2()  {}
+  vec2( float inx, float iny): x(inx) , y(iny) {}
+  vec2 operator+ (const vec2& param){
+    vec2 temp;
+    temp.x = x + param.x;
+    temp.y = y + param.y;
+    return temp;
+  }
+  //cros product (dot not yet implemented;) ) 
+   vec2 operator* (const vec2& param){
+    vec2 temp;
+    temp.x = x * param.x;
+    temp.y = y * param.y;
+    return temp;
+  }
+  float dot(vec2 in1, vec2 in2);
+    
+};
