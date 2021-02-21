@@ -3,7 +3,7 @@
 
 vec2 mid(10,10);
 vec2 edge(2,5);
-vec2 op;
+//vec2 op;
 float r = 8;
 
 void setup() {
@@ -12,7 +12,7 @@ vec2 temp = mid * edge;
 Serial.println(temp.x);
 Serial.println(temp.y);
 
-Serial.println(op.dot(mid,edge));
+Serial.println(dot(mid,edge));
 
 }
 void loop() {

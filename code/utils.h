@@ -21,9 +21,9 @@ public:
     temp.y = y * param.y;
     return temp;
   }
-  float dot(vec2 in1, vec2 in2);
+  //float dot(vec2 in1, vec2 in2);
     
 };
-extern float lenght(vec2 var1, vec2 var2);
-   
+float lenght(vec2 var1, vec2 var2);
+float dot(vec2 in1, vec2 in2);   
 #endif
