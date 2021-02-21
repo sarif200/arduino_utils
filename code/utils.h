@@ -1,3 +1,7 @@
+  #ifndef FUNCTIONS_UTILS
+  #define FUNCTIONS_UTILS
+
+
 class vec2 {
   
 public:
@@ -20,3 +24,6 @@ public:
   float dot(vec2 in1, vec2 in2);
     
 };
+extern float lenght(vec2 var1, vec2 var2);
+   
+#endif

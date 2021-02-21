@@ -1,10 +1,10 @@
 #include "utils.h"
 
 
- float lenght(vec2 var1, vec2 var2){
-    return sqrt(sq(var2.x - var1.x) + sq(var2.y - var1.y));
+ //float lenght(vec2 var1, vec2 var2){
+  //  return sqrt(sq(var2.x - var1.x) + sq(var2.y - var1.y));
 
- };
+ //};
 vec2 mid(10,10);
 vec2 edge(2,5);
 vec2 op;
