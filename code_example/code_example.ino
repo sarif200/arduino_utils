@@ -8,7 +8,7 @@ float r = 8;
 
 void setup() {
   Serial.begin(9600);
-vec2 temp = mid * edge;
+vec2 temp = mid / edge;
 Serial.println(temp.x);
 Serial.println(temp.y);
 
