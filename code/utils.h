@@ -1,5 +1,5 @@
-  #ifndef FUNCTIONS_UTILS
-  #define FUNCTIONS_UTILS
+  #ifndef UTILS
+  #define UTILS
 
 
 class vec2 {
